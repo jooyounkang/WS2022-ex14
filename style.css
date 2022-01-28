@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+    scroll-behavior: smooth;  
+    font-family: 'Dongle', sans-serif;
+    color: rgb(126, 194, 168);
+}
+
+.grid{
+    background-color: #f1ff2b;
+    height: 150px;
+    border-bottom: 10px solid black;
+    border-top: 10px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.grid2{
+    background-color: #79ff67;
+    height: 150px;
+    border-bottom: 10px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.grid3{
+    background-color: #65ceff;
+    height: 150px;
+    border-bottom: 10px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.gridItem{
+    height: 90%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: white;
+    margin-right: 20px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: flex-grow .7s;
+    
+}
+
+.item2 {
+    height: 90%;
+    flex-grow: 5;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: white;
+    margin-right: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    transition: flex-grow .7s;
+}
+
+.item3 {
+    height: 90%;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: white;
+    margin-right: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    transition: flex-grow .7s;
+}
+
+
+
+
+.container{
+    height: 300px;
+    font-size: 100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px solid black;
+}
+
+.item{
+    height: 100%;
+    background-color: white;
+    min-width: 100px;
+}
+
+p{
+    color: rgb(255, 0, 200);
+    font-size: 130px;
+}
+
+.longscroll{
+    background-image: linear-gradient(rgb(211, 241, 255), rgb(255, 255, 231), rgb(255, 186, 164));
+    height: 5000px;
+}
+
